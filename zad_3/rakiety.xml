@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="zad3xml.css"?>
+<rakietyKosmiczne xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="rakiety.xsd">
+    <rakiety>
+        <rakieta id="rk1">
+            <nazwa>Falcon 1</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-03-24</pierwszyLot>
+            <status>Aktywna</status>
+        </rakieta>
+        <rakieta id="rk2">
+            <nazwa>Falcon 2</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-03-23</pierwszyLot>
+            <status>Wycofana</status>
+        </rakieta>
+        <rakieta id="rk3">
+            <nazwa>Falcon 3</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-03-22</pierwszyLot>
+            <status>Aktywna</status>
+        </rakieta>
+        <rakieta id="rk4">
+            <nazwa>Falcon 4</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-03-21</pierwszyLot>
+            <status>Wycofana</status>
+        </rakieta>
+        <rakieta id="rk5">
+            <nazwa>Falcon 5</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-03-20</pierwszyLot>
+            <status>Aktywna</status>
+        </rakieta>
+        <rakieta id="rk6">
+            <nazwa>Falcon 6</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-04-24</pierwszyLot>
+            <status>Wycofana</status>
+        </rakieta>
+        <rakieta id="rk7">
+            <nazwa>Falcon 7</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-04-23</pierwszyLot>
+            <status>Aktywna</status>
+        </rakieta>
+        <rakieta id="rk8">
+            <nazwa>Falcon 8</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-04-22</pierwszyLot>
+            <status>Wycofana</status>
+        </rakieta>
+        <rakieta id="rk9">
+            <nazwa>Falcon 9</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-04-21</pierwszyLot>
+            <status>Wycofana</status>
+        </rakieta>
+        <rakieta id="rk10">
+            <nazwa>Falcon 10</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-02-24</pierwszyLot>
+            <status>Aktywna</status>
+        </rakieta>
+        <rakieta id="rk11">
+            <nazwa>Falcon 11</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-02-23</pierwszyLot>
+            <status>Wycofana</status>
+        </rakieta>
+        <rakieta id="rk12">
+            <nazwa>Falcon 12</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-02-22</pierwszyLot>
+            <status>Wycofana</status>
+        </rakieta>
+        <rakieta id="rk13">
+            <nazwa>Falcon 13</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-02-21</pierwszyLot>
+            <status>Aktywna</status>
+        </rakieta>
+        <rakieta id="rk14">
+            <nazwa>Falcon 14</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-05-24</pierwszyLot>
+            <status>Wycofana</status>
+        </rakieta>
+        <rakieta id="rk15">
+            <nazwa>Falcon 15</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-05-30</pierwszyLot>
+            <status>Wycofana</status>
+        </rakieta>
+        <rakieta id="rk16">
+            <nazwa>Falcon 16</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-05-31</pierwszyLot>
+            <status>Wycofana</status>
+        </rakieta>
+        <rakieta id="rk17">
+            <nazwa>Falcon 17</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-08-24</pierwszyLot>
+            <status>Aktywna</status>
+        </rakieta>
+        <rakieta id="rk18">
+            <nazwa>Falcon 18</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-09-24</pierwszyLot>
+            <status>Wycofana</status>
+        </rakieta>
+        <rakieta id="rk19">
+            <nazwa>Falcon 19</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-06-24</pierwszyLot>
+            <status>Wycofana</status>
+        </rakieta>
+        <rakieta id="rk20">
+            <nazwa>Falcon 20</nazwa>
+            <producent>SpaceX</producent>
+            <pierwszyLot>2006-01-24</pierwszyLot>
+            <status>Aktywna</status>
+        </rakieta>
+    </rakiety>
+    <misje>
+        <misja id="ms1" rakietaId="rk1">
+            <nazwa>Demo flight 1</nazwa>
+            <data>2007-03-24</data>
+            <wynik>Nieudana</wynik>
+        </misja>
+        <misja id="ms2" rakietaId="rk2">
+            <nazwa>Demo flight 2</nazwa>
+            <data>2007-03-25</data>
+            <wynik>Udana</wynik>
+        </misja>
+        <misja id="ms3" rakietaId="rk3">
+            <nazwa>Demo flight 3</nazwa>
+            <data>2007-03-26</data>
+            <wynik>Nieudana</wynik>
+        </misja>
+        <misja id="ms4" rakietaId="rk4">
+            <nazwa>Demo flight 4</nazwa>
+            <data>2007-03-27</data>
+            <wynik>Nieudana</wynik>
+        </misja>
+        <misja id="ms5" rakietaId="rk5">
+            <nazwa>Demo flight 5</nazwa>
+            <data>2007-03-28</data>
+            <wynik>Udana</wynik>
+        </misja>
+        <misja id="ms6" rakietaId="rk6">
+            <nazwa>Demo flight 6</nazwa>
+            <data>2007-04-23</data>
+            <wynik>Nieudana</wynik>
+        </misja>
+        <misja id="ms7" rakietaId="rk7">
+            <nazwa>Demo flight 7</nazwa>
+            <data>2007-04-23</data>
+            <wynik>Nieudana</wynik>
+        </misja>
+        <misja id="ms8" rakietaId="rk8">
+            <nazwa>Demo flight 8</nazwa>
+            <data>2007-06-14</data>
+            <wynik>Udana</wynik>
+        </misja>
+        <misja id="ms9" rakietaId="rk9">
+            <nazwa>Demo flight 9</nazwa>
+            <data>2007-07-24</data>
+            <wynik>Nieudana</wynik>
+        </misja>
+        <misja id="ms10" rakietaId="rk10">
+            <nazwa>Demo flight 10</nazwa>
+            <data>2007-06-04</data>
+            <wynik>Nieudana</wynik>
+        </misja>
+        <misja id="ms11" rakietaId="rk11">
+            <nazwa>Demo flight 11</nazwa>
+            <data>2007-03-12</data>
+            <wynik>Nieudana</wynik>
+        </misja>
+        <misja id="ms12" rakietaId="rk12">
+            <nazwa>Demo flight 12</nazwa>
+            <data>2007-09-13</data>
+            <wynik>Udana</wynik>
+        </misja>
+        <misja id="ms13" rakietaId="rk13">
+            <nazwa>Demo flight 13</nazwa>
+            <data>2007-03-11</data>
+            <wynik>Nieudana</wynik>
+        </misja>
+        <misja id="ms14" rakietaId="rk14">
+            <nazwa>Demo flight 14</nazwa>
+            <data>2007-08-14</data>
+            <wynik>Nieudana</wynik>
+        </misja>
+        <misja id="ms15" rakietaId="rk15">
+            <nazwa>Demo flight 15</nazwa>
+            <data>2007-06-21</data>
+            <wynik>Udana</wynik>
+        </misja>
+        <misja id="ms16" rakietaId="rk16">
+            <nazwa>Demo flight 16</nazwa>
+            <data>2007-02-24</data>
+            <wynik>Nieudana</wynik>
+        </misja>
+        <misja id="ms17" rakietaId="rk17">
+            <nazwa>Demo flight 17</nazwa>
+            <data>2007-01-24</data>
+            <wynik>Nieudana</wynik>
+        </misja>
+        <misja id="ms18" rakietaId="rk18">
+            <nazwa>Demo flight 18</nazwa>
+            <data>2007-09-16</data>
+            <wynik>Udana</wynik>
+        </misja>
+        <misja id="ms19" rakietaId="rk19">
+            <nazwa>Demo flight 19</nazwa>
+            <data>2007-11-24</data>
+            <wynik>Nieudana</wynik>
+        </misja>
+        <misja id="ms20" rakietaId="rk20">
+            <nazwa>Demo flight 20</nazwa>
+            <data>2007-03-02</data>
+            <wynik>Nieudana</wynik>
+        </misja>
+
+    </misje>
+</rakietyKosmiczne>

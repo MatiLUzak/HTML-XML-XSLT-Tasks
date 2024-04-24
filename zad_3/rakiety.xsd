@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:simpleType name="StatusRakiety">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Aktywna"/>
+            <xs:enumeration value="Wycofana"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="WynikMisji">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Udana"/>
+            <xs:enumeration value="Nieudana"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="rakietyKosmiczne">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="rakiety" minOccurs="1" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="rakieta" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nazwa" type="xs:string"/>
+                                        <xs:element name="producent" type="xs:string"/>
+                                        <xs:element name="pierwszyLot" type="xs:date"/>
+                                        <xs:element name="status" type="StatusRakiety"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="misje" minOccurs="1" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="misja" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nazwa" type="xs:string"/>
+                                        <xs:element name="data" type="xs:date"/>
+                                        <xs:element name="wynik" type="WynikMisji"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                    <xs:attribute name="rakietaId" type="xs:IDREF" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

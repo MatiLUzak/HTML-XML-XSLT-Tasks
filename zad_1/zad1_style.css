@@ -1,0 +1,16 @@
+body {
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+#about-author {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+#author-image {
+    margin-top: 20px;
+}
