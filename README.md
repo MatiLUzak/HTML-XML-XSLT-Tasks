@@ -17,22 +17,18 @@ Projekt jest podzielony na następujące zadania:
 
 ### 1️⃣ Zadanie 1 (`zad_1`)
 
-- **Opis:** [Krótki opis zadania 1]
 - **Pliki:** `index.html`, `style.css`, `data.xml`, `transform.xslt`
 
 ### 2️⃣ Zadanie 2 (`zad_2`)
 
-- **Opis:** [Krótki opis zadania 2]
 - **Pliki:** `index.html`, `style.css`, `data.xml`, `transform.xslt`
 
 ### 3️⃣ Zadanie 3 (`zad_3`)
 
-- **Opis:** [Krótki opis zadania 3]
 - **Pliki:** `index.html`, `style.css`, `data.xml`, `transform.xslt`
 
 ### 4️⃣ Zadanie 4 (`zad_4`)
 
-- **Opis:** [Krótki opis zadania 4]
 - **Pliki:** `index.html`, `style.css`, `data.xml`, `transform.xslt`
 
 *Uwaga: Zamień `[Krótki opis zadania X]` na rzeczywiste opisy zadań.*
